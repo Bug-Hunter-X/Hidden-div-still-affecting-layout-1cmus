@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be hidden and not affect layout.
+  </div>
+
+  <script>
+    // Correct way to hide an element
+    document.getElementById("myDiv").style.display = "none";
+  </script>
+</body>
+</html>
